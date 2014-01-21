@@ -1,0 +1,1 @@
+This is the pure Access utility for Investment guidelines management

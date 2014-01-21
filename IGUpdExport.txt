@@ -1,0 +1,54 @@
+
+CBFO
+CONCENTRATION
+| Perpetual bonds single issue exposure in \[0%, 1%\] | 785 |  | True | Risk Management | 
+| Maximum in one issue is 2.5% | 779 |  | True | Risk Management | 
+| Minimum 80 issues (including government bonds) | 778 |  | True | Compliance | 
+| Restricted Exposure - MAX 5% in one issue (Supra and Sovs) | 948 |  | False | Risk Management | 
+| Maximum in one issuer is 4% | 780 |  | True | Risk Management | 
+| HY/NR single issue exposure in \[0%, 0.5%\] | 795 |  | True | Compliance | 
+
+DBFO
+EXPOSURE
+| For each asset rated B to CCC <= 2.5% at purchase {color:red}(place the reference to the relevant rating agency(ies){color} | 928 |  | True | Risk Management | 
+| For each asset rated CCC <= 1.5% at purchase {color:red}(place the reference to the relevant rating agency(ies){color} | 927 |  | True | Risk Management | 
+| For each asset rated AA to A- <= 4% at purchase {color:red}(place the reference to the relevant rating agency(ies){color} | 728 |  | True | Compliance | 
+| For each asset rated BBB to BB- <= 3% at purchase {color:red}(place the reference to the relevant rating agency(ies){color} | 728 |  | True | Compliance | 
+| Gross CCY exposure < 20% | 11 |  | True | Compliance | 
+
+GSBO
+CONCENTRATION
+| Individual issuer (exluding governement agencies, supranational and local authorities) A <= 3.5% | 54 |  | True | Risk Management | 
+| Individual issuer (exluding governement agencies, supranational and local authorities) AA <= 4.5% | 53 |  | True | Risk Management | 
+| Individual issuer (exluding governement agencies, supranational and local authorities) AAA <= 5% | 52 |  | True | Risk Management | 
+| Individual issuer (exluding governement agencies, supranational and local authorities) HY or NR <= 1.5% | 56 |  | True | Risk Management | 
+| Holdings in \[20, 120\] | 121/122 |  | False | Risk Management | 
+| Individual issuer (exluding governement agencies, supranational and local authorities) BBB <= 2.5% | 55 |  | True | Risk Management | 
+
+OMGB
+CONCENTRATION
+| Individual issuer (exluding governement agencies, supranational and local authorities) AAA <= 5% | 164 |  | True | Risk Management | 
+| Holdings in \[20, 120\] | 154/156 |  | False | Risk Management | 
+| Individual issuer (exluding governement agencies, supranational and local authorities) AA <= 4.5% | 165 |  | True | Risk Management | 
+| Individual issuer (exluding governement agencies, supranational and local authorities) A <= 3.5% | 166 |  | True | Risk Management | 
+| Individual issuer (exluding governement agencies, supranational and local authorities) HY or NR <= 1.5% | 168 |  | True | Risk Management | 
+| Individual issuer (exluding governement agencies, supranational and local authorities) BBB <= 2.5% | 167 |  | True | Risk Management | 
+
+TEWK
+EXPOSURE
+| Maximum total holdings in options, index futures, index ETFs and sector swaps of 100% of NAV (see Addendum A of client agreement) |  | BMIS (manual) | True | Compliance | 
+| Long exposure in \[0%, 200%\] (see Addendum A of client agreement) {color:gray}(Redundant but part of the client mandate){color} | 413 |  | True | Compliance | 
+| Net exposure in \[-10%, 10%\] (see Addendum A of client agreement) | 411/412 |  | True | Compliance | 
+| Individual unit size <= 8% of NaV (excluding hedging positions) (see Addendum A of client agreement) | 414 |  | True | Compliance | 
+| Gross exposure in \[150%, 250%\] (see Addendum A of client agreement) | 842/843 |  | True | Compliance | 
+
+UKMCO
+CONCENTRATION
+| Approximately \[60, 75\] stocks (subject to fund size) | 267/268 |  | False | Risk Management | 
+| Single stock in \[1%, 3%\]. For risk purpose we will monitor the  exposure of the 10 biggest names. |  | Vivaldi | False | Risk Management | 
+| Individual holding <= 5% of NaV | 269 |  | True | Risk Management | 
+
+UKOPP
+EXPOSURE
+| Net exposure in \[-50%, 75%\] | 837/838 |  | True | Risk Management | 
+| Gross exposure in \[80%, 200%\] | 833/834 |  | False | Risk Management | 

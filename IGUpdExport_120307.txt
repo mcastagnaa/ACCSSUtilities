@@ -1,0 +1,185 @@
+GSBO
+EXPOSURE
+| Cash <= 20% (IMA rule) | 36 |  | False | Compliance | 
+| Maximum {color:red}(total gross?){color} exposure to EMBI+ currencies = 20% | 47/48/49/ 50/51 |  | True |  | 
+| Gross exposure <= 100% |  |  | True | Risk Management | 
+| Eligible CCY in the fund are those included in the JPM GBI index and those included in the JPM EMBI+ index |  |  | True |  | 
+| HY <= 20% | 40 |  | True | Risk Management | 
+| Cash in \[0%, 10%\] | 907 |  | False | Risk Management | 
+| Total exposure rated below single B <= 5% | 845 |  | True | Risk Management | 
+
+IPAC
+CONCENTRATION
+| table 3.4 to be clarified. Very confused at this stage |  |  | False |  | 
+COUNTERPARTY
+| CD minimum rating of A-1/F1+ by S&P and Fitch (the lower of) |  |  | True |  | 
+| All counterparties must have a minimum long-term rating of A as determined by the lower of S7P and Fitch rating |  |  | True | Compliance | 
+
+MFUT
+CONCENTRATION
+| Table about contribution to total risk by asset groups to be implemented |  |  | True | Risk Management | 
+
+OMDUS
+CONCENTRATION
+| Total number of holdings in \[60, 70\] | 281/910 |  | False | Risk Management | 
+| Single stock in \[1%, 3%\]. For risk purpose only the max = 3% will be monitored. | 284/285 |  | False | Risk Management | 
+| Single stock less than 5% | 274 |  | True | Risk Management | 
+EXPOSURE
+| Cash should not exceed 10% of total portfolio | 324 |  | False | Risk Management | 
+| No investment in unquoted or _ofex_ traded shares |  |  | True | Compliance | 
+| UK equities of companies which form the bottom 10% by market capitalization >= 80% |  |  | True | Compliance | 
+
+OMGB
+EXPOSURE
+| Cash <= 20% (IMA rule){color:red}IMA shouldn't be relevant here{color} |  |  | False |  | 
+| HY <= 20% | 158 |  | True | Risk Management | 
+| Total exposure rated below single B <= 5% | 845 |  | True | Risk Management | 
+| Eligible CCY in the fund are those included in the JPM GBI index and those included in the JPM EMBI+ index |  |  | True |  | 
+| Maximum {color:red}(total gross?){color} exposure to EMBI+ currencies = 20% |  |  | True |  | 
+| Gross exposure <= 100% | 142 |  | True | Risk Management | 
+| Cash in \[0%, 10%\] |  |  | False | Risk Management | 
+
+SKAN
+CONCENTRATION
+| Holdings in \[8, 12\] | 922/923 |  | True | Compliance | 
+| Single stock in \[5%, 25%\] | 288/289 |  | True | Compliance | 
+| 10 holdings | 237/915 |  | False | Risk Management | 
+EXPOSURE
+| Non-UK Equities in \[0%, 25%\] (listed on LSE) {color:gray}(country linked to the exchage where the stock is listed){color} | 235 |  | True | Compliance | 
+| No exposure to AIM listed companies | 912 |  | True | Compliance | 
+| Cash in \[0%, 25%\] | 236 |  | True |  | 
+| No collectives without prior approval | 238 |  | True | Compliance | 
+| No derivatives allowed except for EPM. EPM is limited to 5% of NaV anyway, only with FTSE100 as underlying and holding period maximum of 1m. |  |  | True | Compliance | 
+| UK equities in \[75%, 100%\] (listed on LSE) {color:gray}(country linked to the exchage where the stock is listed){color} | 235 |  | True | Compliance | 
+LIQUIDITY
+| Market cap >= GBP 250mn (at the point of initial investment) | 266 |  | False | Risk Management | 
+
+SKANMC
+CONCENTRATION
+| Single stock in \[1%, 3%\]. |  | Vivaldi | False | Risk Management | 
+| Single stock <= 5% | 543 |  | True | Compliance | 
+| Number of holdings in \[60, 80\]  | 541/542 |  | False | Compliance | 
+EXPOSURE
+| 5-10-40 rule apply: no more than 5% for each issues. Increased to 10% for no more than 40% of NaV | 546 |  | True | Compliance | 
+| Cash should not exceed 10% of total portfolio | 540 |  | False | Compliance | 
+| A minimum of 80% of the portfolio by value to be invested in index constituents. {color:gray}(the aggregate weighting of each index constituent holding in the portfolio must exceed 80% of the total portfolio AUM){color} | 553 |  | True | Risk Management | 
+| The use of derivatives is not permitted other than for EPM. Purchase of index futures will be equitised with corresponding cash. Maximum exposure is 5% of NaV and with prior written consent of the Manager |  |  | True | Compliance | 
+| No investment in unquoted or _ofex_ traded shares | 549 |  | True | Compliance | 
+LIQUIDITY
+| Alert if OMAM (to include aggregate of holdings across all strategies and investment teams) holds 10% or more of the shares outstanding in any company |  |  | False | Compliance | 
+| Alert if less than 80% of the market value of the Portfolio can be liquidated to cash within 20 days (assuming 20% of average daily volume over the last 3 months) |  | Bloomberg | False | Risk Management | 
+| The portfolio may not own more than 5% of the issued capital of any company or more than 20% of a company’s free floating capital. |  |  | True | Risk Management | 
+
+SMFO
+EXPOSURE
+| GBP/EUR minimum exposure of 50%. {color:red}(What does this mean?){color} |  |  | True |  | 
+| Equities <= 85% | 925 |  | True | Risk Management | 
+| International equities <= 10% {color:red}(Does this mean non-UK equities?){color} |  |  | True |  | 
+
+SMID
+CONCENTRATION
+| Number of holdings in \[40, 130\] | 315/316 |  | True | Compliance | 
+| Single stock <= 5% of the +invested assets+ | 318 |  | True | Compliance | 
+| Single stock in \[1%, 3%\]. For risk purpose only the max = 3% will be monitored. | 276/286 |  | False | Risk Management | 
+| Number of holdings in \[60, 80\] (subject to fund size) | 277/278 |  | False | Risk Management | 
+EXPOSURE
+| No collective investment schemes without the notification (by telephone, email or fax) of the same to the Client, and usage is limited to 4.5% of the Portfolio. | 317 |  | True | Compliance | 
+| No investment in options, swaps and CFDs are permitted |  |  | True |  | 
+| Minimum 80% of invested assets to be in benchmark constituents | 926 |  | True | Risk Management | 
+| Minimum 40% of invested assets to be in FTSE250 constituents | 322 |  | True | Compliance | 
+| Cash not to exceed 10% of the fund value (except immediately after new contributions) | 320 |  | True | Compliance | 
+| Minimum 90% of invested assets to be listed in UK (LSE full list and AIM) | 518 |  | True | Compliance | 
+| No investment in unquoted or _ofex_ traded shares |  |  | True | Compliance | 
+RISK
+| Prospective tracking error < 12%. This will be monitored daily by standardizing and annualizing the expected tracking error from the relative VaR report. |  | Vivaldi | True | Risk Management | 
+
+TEWK
+EXPOSURE
+| Individual unit size <= 20% of NaV (excluding hedging positions) (see Addendum A of client agreement) | 414 |  | True | Compliance | 
+| Gross exposure in \[180%, 220%\] (see Addendum A of client agreement) | 842/843 |  | True | Compliance | 
+| Long exposure in \[0%, 200%\] (see Addendum A of client agreement) {color:gray}(Redundant but part of the client mandate){color} | 413 |  | True | Compliance | 
+| Maximum total holdings in options, index futures, index ETFs and sector swaps of 60% of NAV (see Addendum A of client agreement) |  | BMIS (manual) | True | Compliance | 
+| Net exposure in \[-40%, 40%\] (see Addendum A of client agreement) | 411/412 |  | True | Compliance | 
+
+U7
+LIQUIDITY
+| Investment in any single collective will be no more than 20% of the total value of the underlying collective |  | BMIS (manual) | True | Compliance | 
+
+UKDEFOS
+EXPOSURE
+| Net exposure >=30% | 328 |  | False | Risk Management | 
+| Short exposure in \[0%, 30%\] |  |  | False | Risk Management | 
+| Long exposure in \[60%, 100%\] | 509/510 |  | False | Risk Management | 
+| Gross exposure lower than 130% | 507/508 |  | True | Risk Management | 
+| Gross exposure greater than 60% | 507/508 |  | False | Risk Management | 
+| Net exposure <= 100% | 329 |  | True |  | 
+LIQUIDITY
+| The fund will not take long or short positions (other than in exceptional circumstances) in companies with a market capitalisation of less than £50m at the point of initial investment. |  |  | False | Risk Management | 
+
+UKMCO
+CONCENTRATION
+| Approximately \[65, 75\] stocks (subject to fund size) | 267/268 |  | False | Risk Management | 
+| Single stock in \[1%, 3%\]. For risk purpose we will monitor the  exposure of the 10 biggest names. |  | Vivaldi | False | Risk Management | 
+| Individual holding <= 5% of NaV | 269 |  | True | Risk Management | 
+EXPOSURE
+| No investment in unquoted or _ofex_ traded shares |  |  | True | Compliance | 
+| UK equities of companies constituents of the FTSE250 (ex IT) index >= 80%  of the *invested assets* | 300 |  | False | Risk Management | 
+| Cash should not exceed 10% of total portfolio | 410 |  | False | Risk Management | 
+| UK equities >= 80% |  |  | True | Compliance | 
+
+UKOPP
+RISK
+| Performance to alert Head of desk whenever MtD is lower than -3%. This will be based on unit price performance. |  | Factset | True | Risk Management | 
+
+UKSEO
+CONCENTRATION
+| Top 10 holdings in \[30%, 40%\]. Majority being FTSE100 constituents |  | Vivaldi | False | Risk Management | 
+| Single stock <= 2%. Small number of larger holdings allowed |  | Vivaldi | False | Risk Management | 
+| Total number of holdings in \[40, 60\] | 217/218 |  | False | Risk Management | 
+RISK
+| Tracking error will be in \[4%, 8%\] to be monitored monthly on ex-post basis |  | Factset | False | Risk Management | 
+
+UKSSO
+EXPOSURE
+| No investment in unquoted or _ofex_ traded shares |  |  | True | Compliance | 
+| UK equities of companies which form the bottom 10% by market capitalization >= 80% | 516 |  | True | Compliance | 
+| Cash should not exceed 10% of total portfolio | 462 |  | False | Compliance | 
+
+UPUF
+CONCENTRATION
+| AA countries or better ex-CWGB CCY exposure: abs(portfolio exposure-benchmark exposure) <= 10% for each of them |  |  | True | Risk Management | 
+| A countries or better ex-CWGB CCY exposure: abs(portfolio exposure-benchmark exposure) <= 5% for each of them |  |  | True | Risk Management | 
+| EUR: abs(portfolio exposure-benchmark exposure) <= 40% | 877/878 |  | True | Compliance | 
+| Individual EM country exposure <= 5% (at time of purchase) | 695 |  | True | Compliance | 
+| Industry exposure <= 25% {color:red}which industry classification shall we use{color} | 594 |  | True | Compliance | 
+| Exposure to single corporate issuer <= 3% (at the moment of purchase) | 582 |  | True | Compliance | 
+| USD: abs(portfolio exposure-benchmark exposure) <= 25% | 883/652 |  | True | Compliance | 
+| JPY: abs(portfolio exposure-benchmark exposure) <= 30% | 879/880 |  | True | Compliance | 
+| Emerging market CCY exposure: abs(portfolio exposure-benchmark exposure) <= 20% |  |  | True | Risk Management | 
+| GBP: abs(portfolio exposure-benchmark exposure) <= 25% | 875/876 |  | True | Compliance | 
+| DKK: abs(portfolio exposure-benchmark exposure) <= 20% | 873/874 |  | True | Compliance | 
+| SEK: abs(portfolio exposure-benchmark exposure) <= 20% | 871/872 |  | True | Compliance | 
+| Other currencies in CWGB: abs(portfolio exposure-benchmark exposure) <= 15% {color:red}is this for each of them or as a whole?{color} | 863/864/865/ 866/867/868 |  | True | Compliance | 
+| NZD: abs(portfolio exposure-benchmark exposure) <= 10% | 869/870 |  | True | Compliance | 
+| CAD: abs(portfolio exposure-benchmark exposure) <= 25% | 881/882 |  | True | Compliance | 
+COUNTERPARTY
+| Counterparty risk with respect to any counterparty (and its affiliates) shall not exeed 5% of the NaV (other than any designated custodian or prime broker to the account).{color:red} see below{color} |  | CER Report | True | Risk Management | 
+SENSITIVITY
+| Emerging market Countries: ABS(portfolio duration-benchmark duration) <= 1.5 | n/a | XL | True | Risk Management | 
+| GER: ABS(portfolio duration-benchmark duration) <= 2.5 | n/a | XL | True | Risk Management | 
+| A countries or better ex-CWGB: ABS(portfolio duration-benchmark duration) <= 0.5 | n/a | XL | True | Risk Management | 
+| AA countries or better ex-CWGB: ABS(portfolio duration-benchmark duration) <= 1.0 | n/a | XL | True | Risk Management | 
+| NZL: ABS(portfolio duration-benchmark duration) <= 1 | n/a | XL | True | Risk Management | 
+| Other countries in CWGB: ABS(portfolio duration-benchmark duration) <= 1.5 {color:red}is this for each of them or as a whole?{color} | n/a | XL | True | Risk Management | 
+| SWE: ABS(portfolio duration-benchmark duration) <= 1.5 | n/a | XL | True | Risk Management | 
+| DNK: ABS(portfolio duration-benchmark duration) <= 1.5 | n/a | XL | True | Risk Management | 
+| GBR: ABS(portfolio duration-benchmark duration) <= 2 | n/a | XL | True | Risk Management | 
+| ESP: ABS(portfolio duration-benchmark duration) <= 1.5 | n/a | XL | True | Risk Management | 
+| NLD: ABS(portfolio duration-benchmark duration) <= 1.5 | n/a | XL | True | Risk Management | 
+| BEL: ABS(portfolio duration-benchmark duration) <= 1.5 | n/a | XL | True | Risk Management | 
+| FRA: ABS(portfolio duration-benchmark duration) <= 2.5 | n/a | XL | True | Risk Management | 
+| JAP: ABS(portfolio duration-benchmark duration) <= 4 | n/a | XL | True | Risk Management | 
+| CAN: ABS(portfolio duration-benchmark duration) <= 2 | n/a | XL | True | Risk Management | 
+| USA: ABS(portfolio duration-benchmark duration) <= 2 | n/a | XL | True | Risk Management | 
+| ABS(portfolio duration - benchmark duration) <= 3 | n/a | XL | True | Compliance | 
+| ITA: ABS(portfolio duration-benchmark duration) <= 2.5 | n/a | XL | True | Risk Management | 
